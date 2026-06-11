@@ -1,0 +1,2 @@
+SMB(simple message block) et [[FTP]] sont des protocoles de transfert de fichers.
+SMB permet a deux ou plusieurs machines de partager des dossiers. Tu peux le voir comme l'option "shared_folder" de virtual box, mais pour de vraies machines.
