@@ -1,0 +1,1 @@
+ Ce type d'injections SQL se base sur les messages d'erreur de la base de données pour fonctionner. Lorsque la base de données répond avec un message d'erreur, l'on peut avoir des informations qui vont nous permettre les autres types d'injection sql. ([[union-based SQLi]])
