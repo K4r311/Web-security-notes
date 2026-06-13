@@ -1,4 +1,4 @@
-Les injections SQL booléennes se basent sur deux états (true/false) pour fonctionner. Au cours d'une injection SQL booléenne, on observe si la page cible a subi une modification. En fonction de cette différence, on peut deviner si notre requête a un résultat positif ou non:
+Les injections SQL booléennes se basent sur deux états (true/false) pour fonctionner. Au cours d'une injection SQL booléenne, on observe si la page cible ou le code source a subi une modification. En fonction de cette différence, on peut deviner si notre requête a un résultat positif ou non:
 ```SQL
 select * from users where username = 'target' UNION SELECT 1;--`
 ```
