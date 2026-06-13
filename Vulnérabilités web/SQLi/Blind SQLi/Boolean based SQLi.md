@@ -2,7 +2,7 @@ Les injections SQL booléennes se basent sur deux états (true/false) pour fonct
 ```SQL
 target' UNION SELECT 1,2,3 where database() like 's%';--
 ```
-le payload demande a la base de données de renvoyer les bases de données ou le nom commence par 's'. On observe la réponse(true/false) et on va par tatonnement, en essayant de deviner le nom de la table.
+le payload demande au serveur de renvoyer les bases de données ou le nom commence par 's'. On observe la réponse(true/false) et on va par tatonnement, en essayant de deviner le nom de la table.
 
 Après avoir trouvé le nom d'une base de données, il faut répéter le meme processus avec les tables, colonnes, et enfin extraire un nom d'utilisateur, mot de passe.
 
