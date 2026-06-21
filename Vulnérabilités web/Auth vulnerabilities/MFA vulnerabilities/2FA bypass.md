@@ -1,0 +1,2 @@
+La 2FA(2 factor authentication) est une technique de sécurité. Au lieu d'utiliser un mot de passe comme seul moyen d'authentification, les systèmes équipés d'une 2FA utilisent généralement un mot de passe+code de vérification.
+Pour un attaquant, ça rend l'authentification un peu plus difficile. Mais ceci peut être contourné si l'application ne vérifie pas le résultat du deuxième facteur, ou encore celle-ci accepte plusieurs tentatives sans renouveler le code, ce qui laisse éventuellement la porte ouverte a un bruteforce. 
