@@ -1,0 +1,1 @@
+Proxy est une feature de BurpSuite qui permet de déployer un proxy web sur sa propre machine, ce qui permet d'observer le traffic HTTP et le modifier.On l'utilise souvent avec [[Intruder]] et [[Repeater]] 
