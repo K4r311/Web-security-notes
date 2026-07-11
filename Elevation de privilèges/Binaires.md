@@ -1,6 +1,6 @@
 Pour checker les binaires/fichiers SUID, lancer la commande:
 ```bash
-`find / -perm -u=s -type f 2>/dev/null`
+find / -perm -u=s -type f 2>/dev/null
 ```
 Aussi, il se pourrait que la machine cible soit incapable d'effectuer certaines actions, il faudra donc les faire sur notre machine hôte.  Ensuite, il faudra déployer un serveur python pour rendre l'installation possible par la cible
 ```bash
