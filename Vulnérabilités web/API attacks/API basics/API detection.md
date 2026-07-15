@@ -1,4 +1,4 @@
-Une API(application programming interface) est une interface qui permet au front-end de communiquer avec les serveurs. 
+Une API(application programming interface) est une interface qui permet aux serveurs front-end de communiquer avec le back-end. 
 
 Les API peuvent se comporter différemment en fonction de la requête de l'utilisateur.
 
