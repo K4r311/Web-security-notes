@@ -7,7 +7,13 @@ Pour trouver les sous domaines, gobuster est préféré. Ainsi, la commande est:
 ```bash
 gobuster dns --domain example.com -w wordlist.txt
 ```
+Pour trouver les vhosts, on peut:
+```
+ffuf -u http://TARGET-IP/ -H "Host: FUZZ.example.com" -w /path/to/wordlist.txt
+```
 
-Après cela, on peut utiliser [[Intruder]] ou [[hydra]] pour le bruteforce de login si il y en a un.
+Note: pour filtrer les résultats, utiliser les flags:
 
+`-fs` pour filtrer en fonction de la taille, 
+`-fc` pour filtrer en fonction du "status code"
 
