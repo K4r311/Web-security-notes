@@ -2,4 +2,9 @@ Nmap(network mapper) est un outil en ligne de commande qui permet de trouver les
 ```bash 
 nmap -A -p- -T4 'target_ip'
 ```
+Pour scanner un subnet:
+```
+nmap -sn "subnet IP"/CDIR
+```
+
 Après le scan, il se pourrait que http soit disponible, et c'est ici qu'interviennent [[ffuf et gobuster]]. 
