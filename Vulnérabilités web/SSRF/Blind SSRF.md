@@ -5,5 +5,5 @@ Par exemple, supposons qu'on a un site web
   http://example.com/index.html?url=localhost/
   ``` 
   Ici, on peut déployer un serveur (avec python) qui va recueillir des informations a chaque requête.
-  Ensuite, on peut modifier la valeur du paramètre **?url** par l'adresse IP du serveur qu'on possède.
-  
+ 
+ Ensuite, on peut modifier la valeur du paramètre **?url** par l'adresse IP du serveur qu'on possède,indiquer un fichier malveillant, afin que le serveur cible l'exécute.
