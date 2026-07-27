@@ -6,6 +6,6 @@ Pour obtenir une RCE en exploitant une faille LFI, on peut suivre ces étapes:
 
 3- Pour la LFI, utiliser les wrappers php comme `filter://`,`data://` ,`expect://`, etc.
 
-4- Utiliser un shell basique en php (`<?phpsystem($_GET["cmd"]);?>`), et encoder en base64, pour que le payload puisse atteindre le serveur sans modification par http.
+4- Utiliser un shell basique en php (`<?php system($_GET["cmd"]); ?>`), et encoder en base64, pour que le payload puisse atteindre le serveur sans modification par http.
 
 5- Ajouter le paramètre "cmd"(comme l'indique la commande ci-dessus)
