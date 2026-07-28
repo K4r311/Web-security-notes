@@ -6,3 +6,5 @@
 php://filter/read=convert.base64-encode/resource=sensitive_file
 ```
 pour encoder le fichier en base 64, afin d'éviter qu'il soit exécuté par l'application web.
+
+Pour l'automatisation, utiliser des wordlists comme "`burp-parameter-names.txt`" , ou "` LFI-Jhaddix.txt`"
