@@ -2,7 +2,7 @@ Pour obtenir une RCE en exploitant une faille LFI, on peut suivre ces étapes:
 
 1- Tout d'abord, exploiter le paramètre vulnérable pour lire les fichiers de configuration. SI c'est du `PHP` , il est conseillé d'encoder le contenu du fichier(par exemple en `base64`) afin d'éviter qu'il ne s'exécute.
 
-2- Lire le fichier de configuration. et être attentif aux options/methodes qu'il utilise, surtout pour du php.
+2- Lire les fichiers de configuration, en utilisant les wrappers php comme ` php://filter/read=convert.base64-encode/resource=sensitive_file `. et être attentif aux options/methodes qu'il utilise, surtout pour du php.
 
 3- Pour la LFI, utiliser les wrappers php comme `filter://`,`data://` ,`expect://`, etc.
 
