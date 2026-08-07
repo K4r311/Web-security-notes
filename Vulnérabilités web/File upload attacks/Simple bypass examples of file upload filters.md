@@ -10,3 +10,5 @@ Ces vulnérabilités ne sont pas critiques juste parce qu'un fichier restreint p
 -Vérification de l'extension: peut être changée très facilement, On peut renommer`shell.php` en `shell.php.png` , en considérant que `.png` est l'extension acceptée.
 
 -Vérification des "Magic-Bytes": Peuvent être modifiés en utilisant des outils comme `hexeditor`.
+
+-Les bypass comme ".PnG" au lieu de ".png"(on joue avec les caractères).
