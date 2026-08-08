@@ -4,8 +4,8 @@ En effet, en fonction de la configuration de l'application web, on peut utiliser
 
 Par exemple, dans cette de requête HTTP:
 ```
-POST /my-account/avatar HTTP/2
-Host: 0a690073038c67ba814d9115000500ca.web-security-academy.net
+POST /endpoint/ HTTP/2
+Host: example?com
 Accept-Language: fr-FR,fr;q=0.9
 boundary=----bound1234567890
 Accept: */*
