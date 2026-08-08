@@ -5,7 +5,7 @@ En effet, en fonction de la configuration de l'application web, on peut utiliser
 Par exemple, dans cette de requête HTTP:
 ```
 POST /endpoint/ HTTP/2
-Host: example?com
+Host: example.com
 Accept-Language: fr-FR,fr;q=0.9
 boundary=----bound1234567890
 Accept: */*
