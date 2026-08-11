@@ -7,5 +7,5 @@ git-dumper https://<TARGET_WEBSITE>/.git/ ./<YOUR NEW DIRECTORY NAME>
 
 Pour retracer l'historique des commits:
 ```bash
-git log --online --all
+git log  --all
 ```
