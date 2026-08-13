@@ -1,6 +1,6 @@
 Nmap(network mapper) est un outil en ligne de commande qui permet de trouver les ports ouverts sur une machine, détecter les services, leurs versions qui tournent, et permet même de 'mapper' un sous réseau.
 ```bash 
-nmap -A -p- -T4 'target_ip'
+nmap -A -p- -T4 -v 'target_ip'
 ```
 Pour scanner un subnet:
 ```
