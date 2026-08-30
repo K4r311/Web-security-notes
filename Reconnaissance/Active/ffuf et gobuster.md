@@ -16,4 +16,4 @@ Note: pour filtrer les résultats, utiliser les flags:
 
 `-fs` pour filtrer en fonction de la taille, 
 `-fc` pour filtrer en fonction du "status code"
-`-recursion` pour fuzz de manière récursive 
+`-recursion -recursion-depth <number> -rate <another number>` pour fuzz de manière récursive 
