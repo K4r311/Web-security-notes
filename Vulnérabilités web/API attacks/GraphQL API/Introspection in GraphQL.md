@@ -90,3 +90,6 @@ Le payload suivant est souvent utilisé pour l'introspection.
         }
     }
 ```
+
+**Important**: Avec cette requête d'introspection, il est fondamental d'utiliser le paramètre JSON 
+< ` "operationName":"IntrospectionQuery" `>
